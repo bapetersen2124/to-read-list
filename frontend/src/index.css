@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+/* Nav */
+.nav-background {
+  background-color: #82bfa5;
+}
+
+.nav-header {
+  text-align: center;
+  padding-left: 280px;
+  padding-top: 13px;
+}
+
+.nav-item a:hover {
+  font-weight: bold;
+}
+
+.nav-text {
+  font-family:'Shadows Into Light', arial;
+  letter-spacing: 1.5px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 24px;
+}
+
+/* Jumbotron */
+.background {
+    background-image: url("/assets/background-image.jpg");
+}
+
+.jumbotron-text {
+  font-family: 'Shadows Into Light', arial;
+  font-size: 20px;
+  color: #000;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+/* New Entry Form on Jumbotron */
+.formBackground {
+  background-color: #fff;
+  opacity: .9;
+}
+
+.formStyle {
+  font-family:'Shadows Into Light', arial;
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 1.5px;
+  vertical-align: middle;
+  line-height: 1.5;
+  padding: 15px;
+  margin: 0 30px;
+}
+
+.button-style {
+  font-family:'Shadows Into Light', arial;
+  font-size: 20px;
+  border-radius: 10%;
+  letter-spacing: 1.5px;
+}
+
+/* Body w/ Book List */
+.body-background {
+  background-color: #f1f1f2
+}
+
+.book-image {
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.book-list-display {
+  display: inline-block;
+}
+
+.list-text {
+  font-family:'Shadows Into Light', arial;
+  letter-spacing: 1.5px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 16px;
+}
+
+.vote-text {
+  font-family:'Shadows Into Light', arial;
+  font-size: 20px;
+}
+
+/* Footer */
+.footer-text {
+  font-family: 'Shadows Into Light', arial;
+  letter-spacing: 1.5px;
+  color: #000;
+  font-size: 20px;
+  padding-top: 16px;
+}
+
+.form-input {
+  padding: 13px 13px 0px 13px;
+  margin: 0px;
+  font-size: 75%;
+}
+
+
+.footer-header {
+  text-align: center;
+  padding-left: 125px;
+  padding-top: 16px;
+  font-family: 'Shadows Into Light', arial;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+
+.footer-height {
+  position: relative;
+  top: 20vh;
+}
