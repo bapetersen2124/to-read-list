@@ -5,14 +5,8 @@ import { BookForm } from './BookForm.js';
 
 export class BackgroundImage extends Component {
   render() {
-    const jumboStyle = {
-        padding: 50,
-        margin: 0,
-        width: "100%",
-        minHeight: "50%",
-    }
       return(
-        <div className="jumbotron background" style={jumboStyle}>
+        <div className="jumbotron background jumbo-style">
               <BookForm
                 handleSubmit = {this.props.handleSubmit}
                 handleAuthorChange = {this.props.handleAuthorChange}

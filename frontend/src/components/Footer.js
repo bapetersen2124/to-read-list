@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../App.css';
 import { Navbar } from 'react-bootstrap';
 import { Form } from './SignUpForm.js';
 import { SocialPop } from './SocialPopover.js';

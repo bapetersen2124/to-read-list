@@ -27,7 +27,6 @@ export class BookForm extends Component {
   };
 
   handleSubmit = (e) => {
-    console.log("submitting")
     e.preventDefault();
     this.props.handleCreateBook({title: this.state.title, author: this.state.author, image: this.state.image, votes: this.state.votes})
     this.setState({
@@ -35,8 +34,6 @@ export class BookForm extends Component {
       author: ""
     })
   };
-
-
 
   render() {
     return(

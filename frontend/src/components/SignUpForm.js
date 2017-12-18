@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import '../App.css';
 import isEmail from 'validator/lib/isEmail';
 
 export class Form extends Component {
-  state = {
-    enteredEmail : '',
-    isError: false,
-    isSubmitted: false,
-    submittedEmail: ''
+  constructor(props) {
+    super(props);
+    this.state = {
+      enteredEmail : '',
+      isError: false,
+      isSubmitted: false,
+      submittedEmail: ''
+    }
   }
+
   onFormSubmit = (e) => {
     e.preventDefault()
     const email = this.state.enteredEmail ;
@@ -24,7 +27,6 @@ export class Form extends Component {
   };
 
   onInputChange = (e) => {
-    console.log("Input Changed")
     this.setState({ enteredEmail: e.target.value, isSubmitted: false, isError: false });
   };
 

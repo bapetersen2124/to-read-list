@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
-import {App} from '../App.js';
+import { App } from '../App.js';
 import Checkbox from 'rc-checkbox';
 import FaCaretUp from 'react-icons/lib/fa/caret-up';
 import FaCaretDown from 'react-icons/lib/fa/caret-down';
@@ -8,7 +7,6 @@ import FaCaretDown from 'react-icons/lib/fa/caret-down';
 export class BookItem extends Component {
   constructor(props) {
     super(props);
-    console.log('constructor', props);
     this.state = {
       completed : false,
       votes: this.props.book.votes

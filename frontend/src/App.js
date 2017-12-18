@@ -8,7 +8,7 @@ import { BookForm } from './components/BookForm.js';
 import { BackgroundImage } from './components/BackgroundImage.js';
 import { NavBar } from './components/NavBar.js';
 import { Footer } from './components/Footer.js';
-import { SocialPop } from './components/socialPopover.js';
+import { SocialPop } from './components/SocialPopover.js';
 import _ from 'lodash';
 import FaCaretUp from 'react-icons/lib/fa';
 import FaCaretDown from 'react-icons/lib/fa/caret-down';
