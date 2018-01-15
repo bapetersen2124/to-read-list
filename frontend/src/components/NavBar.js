@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import '../styling/NavBar.sass';
 import { Navbar } from 'react-bootstrap';
 
-export class NavBar extends Component {
+export default class NavBar extends Component {
   render() {
     return(
-      <nav className="navbar navbar-toggleable-md navbar-light bg-faded nav-background" >
-        <div className="collapse navbar-collapse nav-text">
-          <ul className="navbar-nav pull-left">
+      <nav className="nav nav-background" >
+        <div className="nav-text">
+          <ul>
             <li className="nav-item active">
               <a className="nav-link" href="#">Home</a>
             </li>

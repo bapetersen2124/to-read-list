@@ -6,7 +6,10 @@
     "bootstrap": "^4.0.0-beta.2",
     "express": "^4.16.2",
     "immutability-helper": "^2.6.0",
+    "jquery": "^1.9.1",
     "lodash": "^4.17.4",
+    "node-sass": "^4.0.0",
+    "popper.js": "^1.12.9",
     "rc-checkbox": "^2.1.1",
     "react": "^16.2.0",
     "react-bootstrap": "^0.31.5",
@@ -16,8 +19,11 @@
     "react-icons": "^2.2.7",
     "react-redux": "^5.0.6",
     "react-scripts": "1.0.17",
+    "react-tooltip": "^3.4.0",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
+    "sass-loader": "^6.0.6",
+    "sass-mediaqueries": "^1.6.1",
     "validator": "^9.2.0"
   },
   "scripts": {

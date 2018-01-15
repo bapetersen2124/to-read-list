@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Navbar } from 'react-bootstrap';
 import { Form } from './SignUpForm.js';
 import { SocialPop } from './SocialPopover.js';
+import ReactTooltip from 'react-tooltip';
+
 
 export class Footer extends Component {
   render() {
@@ -13,13 +15,12 @@ export class Footer extends Component {
               <a className="nav-link footer-text" href="mailto: bapetersen2124@gmail.com">Contact Us</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">&nbsp;</a>
+              <a className="nav-link">&nbsp;</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link footer-text" href="#">
-                Follow Us
+              <div className="nav-link footer-text">
                 < SocialPop />
-              </a>
+              </div>
             </li>
             <li className="footer-header">
               <a>Join our email list:</a>

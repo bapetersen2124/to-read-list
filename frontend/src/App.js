@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.sass';
 import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 import Checkbox from 'rc-checkbox';
 import { BookItem } from './components/BookItem.js';
 import { BookForm } from './components/BookForm.js';
 import { BackgroundImage } from './components/BackgroundImage.js';
-import { NavBar } from './components/NavBar.js';
+import NavBar from './components/NavBar.js';
 import { Footer } from './components/Footer.js';
 import { SocialPop } from './components/SocialPopover.js';
 import _ from 'lodash';
 import FaCaretUp from 'react-icons/lib/fa';
 import FaCaretDown from 'react-icons/lib/fa/caret-down';
-
-
 
 const images = [
   "/assets/image-steel.png",
