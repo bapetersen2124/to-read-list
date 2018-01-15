@@ -3,6 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
+  console.log('books.js GET /');
   // res.send('respond with a resource');
   res.json([{
     title: "book no. 1",

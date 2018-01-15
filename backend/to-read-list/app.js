@@ -4,11 +4,19 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var Sequelize = require('sequelize');
 
 var index = require('./routes/index');
-var users = require('./routes/users');
-
+var books = require('./routes/books');
+// var users = require('./routes/users');
 var app = express();
+
+const PORT = process.env.PORT || 4001;
+
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
+});
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -23,7 +31,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
+app.use('/books', books);
+// app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
